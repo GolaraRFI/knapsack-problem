@@ -11,7 +11,7 @@ I did the optimization problem with these settings:
   - Crossover pobability = 0.8
   - Mutation = Bit_flip mutation
   - Mutation probability = 0.4
-
+  ***
   - Number of objects (gen) = 10
   - Number of population (chromosume) = 8
   - Number of generation = 50
