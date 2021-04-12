@@ -1,5 +1,5 @@
 # knapsack-problem
-##knapsack problem using evolutionary algorithm with two selection methods
+## knapsack problem using evolutionary algorithm with two selection methods
 I did this project on **Google Colaboratory**.
 
 I did the optimization problem with these settings:
