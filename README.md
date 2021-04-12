@@ -1,17 +1,20 @@
 # knapsack-problem
 knapsack problem using evolutionary algorithm with two selection methods
 
+I did the optimization problem with these settings:
 
-We can define the **fitness function** as follows:
-\begin{aligned}
-\\fitness=\sum_{i=1}^nc_iv_i;\qquad if\quad \sum_{i=1}^nc_iw_i <= M \\ 
-fitness=0;\qquad\qquad\qquad\qquad\quad otherwise
-\end{aligned}
-Where:
->\begin{align}
-n = chromosome\ length\qquad\qquad\qquad\ \\
-c_i = ith\ gene\qquad\qquad\qquad\qquad\qquad\quad\ \\
-v_i = ith\ value\qquad\qquad\qquad\qquad\qquad\quad\\
-w_i = ith\ weight\qquad\qquad\qquad\qquad\qquad\ \\
-M = Maximum\ weight\ of\ the\ bag\qquad
-\end{align}
+  - Population management = Generational model
+  - Representation = Binary
+  - Parent selection = FPS & another selection 
+  - Implementing selection probabilities = Stuchastic universal sampling
+  - Crossover = One_point crossover
+  - Crossover pobability = 0.8
+  - Mutation = Bit_flip mutation
+  - Mutation probability = 0.4
+
+  - Number of objects (gen) = 10
+  - Number of population (chromosume) = 8
+  - Number of generation = 50
+  - M (Maximum weight of the bag) = 50
+  - Range of weights = 1-20
+  - Range of values = 100-1000
