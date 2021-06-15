@@ -2,7 +2,7 @@
 ## knapsack problem using evolutionary algorithm with two selection methods
 I did this project on **Google Colaboratory**.
 
-I did the optimization problem with these settings:
+I did this optimization problem with these settings:
 
   - Population management = Generational model
   - Representation = Binary
