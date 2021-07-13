@@ -1,6 +1,7 @@
 # knapsack-problem
 ## knapsack problem using evolutionary algorithm with two selection methods
 This project is done on **Google Colaboratory**.
+
 This optimization problem is done with these settings:
 
   - Population management = Generational model
